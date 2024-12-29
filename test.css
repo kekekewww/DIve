@@ -1,0 +1,16 @@
+body {
+    background-color: rgba(0, 255, 255, 0.3); /* 设置背景颜色为浅青色，透明度为30% */
+}
+
+a {
+    border: 2px solid white; /* 设置白色的边框，宽度为2px */
+    padding: 15px; /* 设置内边距为15px */
+    margin-bottom: 10px; /* 设置底部外边距为10px */
+    display: block; /* 使链接元素成为块级元素，以便于垂直排列 */
+    color: #1a73e8; /* 设置链接文本的颜色 */
+    text-decoration: none; /* 移除链接文本的下划线 */
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* 鼠标悬停时，设置背景颜色为白色，透明度为20% */
+}
